@@ -1,0 +1,13 @@
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5433/translator_db
+    username: user
+    password: password
+    hikari:
+      schema: translator_schema
+
+api:
+  string: AQVNzUI0JfSnnpqVss73yW7NR8Iv--NqGIWbkODq
+  url:
+    translate: https://translate.api.cloud.yandex.net/translate/v2/translate
+    languages: https://translate.api.cloud.yandex.net/translate/v2/languages
